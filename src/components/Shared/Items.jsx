@@ -124,11 +124,20 @@ const Items = ({
         >
           <AvatarComp avatar={avatar} />
           <Stack spacing={0.3}>
-            <Typography fontWeight={600} fontSize="0.95rem" color="inherit">
+            <Typography
+              fontWeight={600}
+              fontSize="0.95rem"
+              color="inherit"
+              fontFamily={"'DM Sans',sans-serif"}
+            >
               {name}
             </Typography>
             {newmessage && (
-              <Typography fontSize="0.75rem" color="#aaa">
+              <Typography
+                fontSize="0.75rem"
+                color="#aaa"
+                fontFamily={"'DM Sans',sans-serif"}
+              >
                 {newmessage.count} New Message{newmessage.count > 1 ? "s" : ""}
               </Typography>
             )}
