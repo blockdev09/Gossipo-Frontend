@@ -25,6 +25,9 @@ const AvatarComp = ({ avatar = [], max = 4 }) => {
                   xs: `${0.5 + index}rem`,
                   sm: `${index}rem`,
                 },
+                border: "none",
+                boxShadow: "none",
+                backgroundColor: "transparent",
               }}
             />
           ))}
