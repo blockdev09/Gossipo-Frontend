@@ -80,8 +80,14 @@ const ProfileCard = ({ text, heading, Icon }) => {
     >
       {Icon}
       <Stack>
-        <Typography fontWeight={600}>{text}</Typography>
-        <Typography variant="caption" color="gray">
+        <Typography fontWeight={600} fontFamily={"'DM Sans',sans-serif"}>
+          {text}
+        </Typography>
+        <Typography
+          variant="caption"
+          color="gray"
+          fontFamily="'Inter', sans-serif"
+        >
           {heading}
         </Typography>
       </Stack>
