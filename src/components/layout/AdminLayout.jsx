@@ -118,14 +118,25 @@ const Sidebar = ({ w = "100%" }) => {
       // bgcolor={"#36393f"}
       border={"orange"}
     >
-      <Typography
-        variant="h5"
-        textTransform={"uppercase"}
-        textAlign={"center "}
-        color={"white"}
-      >
-        Gossipo
-      </Typography>
+      <Link to="/" style={{ textDecoration: "none" }}>
+        <Typography
+          variant="h5"
+          textTransform={"uppercase"}
+          textAlign={"center"}
+          color={"white"}
+          fontWeight={700}
+          fontFamily={`'Urbanist', sans-serif`}
+          sx={{
+            cursor: "pointer",
+            "&:hover": {
+              color: "#ff5c5c",
+            },
+          }}
+        >
+          Gossipo
+        </Typography>
+      </Link>
+
       <Stack spacing={"1.5rem"}>
         {AdminTabs.map((tab) => (
           <Link
