@@ -191,7 +191,18 @@ const Iconbutton = ({ title, icon, onclick, value }) => {
         }}
       >
         {value ? (
-          <Badge badgeContent={value} color="error">
+          <Badge
+            badgeContent={value}
+            color="error"
+            sx={{
+              "& .MuiBadge-badge": {
+                minWidth: "18px",
+                height: "18px",
+                fontSize: "0.75rem",
+                padding: "0 6px",
+              },
+            }}
+          >
             {icon}
           </Badge>
         ) : (

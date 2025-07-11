@@ -92,7 +92,7 @@ const Search = () => {
         </DialogTitle>
 
         <TextField
-          placeholder="Search by Name or Username"
+          placeholder="Search by Name"
           value={search.value}
           onChange={search.changeHandler}
           variant="outlined"

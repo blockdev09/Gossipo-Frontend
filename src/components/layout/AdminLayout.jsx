@@ -90,7 +90,13 @@ const AdminLayout = ({ children }) => {
       <Grid item xs={12} md={8} lg={9} bgcolor={"#1e1f22"}>
         {children}
       </Grid>
-      <Drawer open={isMobile} onClose={handelClose}>
+      <Drawer
+        open={isMobile}
+        onClose={handelClose}
+        PaperProps={{
+          sx: { bgcolor: "#36393f", color: "white" },
+        }}
+      >
         <Sidebar w={"50vw"} />
       </Drawer>
     </Grid>
