@@ -86,8 +86,8 @@ const Header = ({ rightComponent }) => {
           <Toolbar
             disableGutters
             sx={{
-              px: 1, 
-              minHeight: "3.5rem",
+              px: 1, // less horizontal padding
+              minHeight: "3.5rem", // smaller height
               display: "flex",
               flexWrap: "nowrap",
               justifyContent: "space-between",
@@ -95,7 +95,12 @@ const Header = ({ rightComponent }) => {
           >
             <Typography
               variant="h6"
-              sx={{ display: { xs: "none", sm: "block" } }}
+              sx={{
+                display: { xs: "none", sm: "block" },
+                fontFamily: "'Urbanist',sans-serif",
+                fontWeight: 600,
+                letterSpacing: "1px",
+              }}
             >
               Gossipo
             </Typography>
