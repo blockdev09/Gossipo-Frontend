@@ -28,6 +28,8 @@ const Tables = ({ rows, columns, heading, rowHeight = 52 }) => {
             margin: "2rem",
             textTransform: "uppercase",
           }}
+          color={"white"}
+          fontFamily={"'DM Sans',sans-serif"}
         >
           {heading}
         </Typography>
