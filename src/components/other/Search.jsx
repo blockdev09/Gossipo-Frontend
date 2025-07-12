@@ -71,6 +71,8 @@ const Search = () => {
           padding: isMobile ? "1rem" : "2.5rem",
           width: "100%",
           maxWidth: isMobile ? "100%" : "32rem",
+          maxHeight: isMobile ? "100dvh" : "auto", 
+          overflowY: isMobile ? "auto" : "hidden", 
           margin: 0,
           background: "rgba(30, 31, 34, 0.85)",
           backdropFilter: "blur(10px)",
@@ -124,7 +126,7 @@ const Search = () => {
         />
 
         <List>
-          {users.map((user) => ( 
+          {users.map((user) => (
             <Itemuser
               user={user}
               handler={addFriend}
