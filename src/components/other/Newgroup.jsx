@@ -149,6 +149,8 @@ const Newgroup = () => {
           padding: ismobile ? "1rem" : "2.5rem",
           width: "100%",
           maxWidth: ismobile ? "100%" : "32rem",
+          maxHeight: ismobile ? "90vh" : "auto",
+
           margin: 0,
           background: "rgba(30, 31, 34, 0.85)",
           backdropFilter: "blur(10px)",
