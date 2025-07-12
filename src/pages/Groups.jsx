@@ -339,7 +339,11 @@ const Groups = () => {
             xs: "block",
             sm: "none",
           },
-          bgcolor: "#36393f",
+        }}
+        PaperProps={{
+          sx: {
+            bgcolor: "#36393f",
+          },
         }}
         open={mobileOpen}
         onClose={mobileClose}
