@@ -71,7 +71,7 @@ const Search = () => {
           padding: isMobile ? "1rem" : "2.5rem",
           width: "100%",
           maxWidth: isMobile ? "100%" : "32rem",
-          maxHeight: isMobile ? "100dvh" : "auto", 
+          maxHeight: isMobile ? "90vh" : "auto", 
           overflowY: isMobile ? "auto" : "hidden", 
           margin: 0,
           background: "rgba(30, 31, 34, 0.85)",
