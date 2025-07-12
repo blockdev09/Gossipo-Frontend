@@ -131,7 +131,7 @@ const Newgroup = () => {
       members: membersSelected,
     });
     close();
-    console.log(groupName.value, membersSelected);
+    // console.log(groupName.value, membersSelected);
   };
   const close = () => {
     dispatch(setIsNewGroup(false));

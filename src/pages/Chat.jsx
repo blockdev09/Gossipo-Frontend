@@ -119,7 +119,7 @@ const Chat = ({ chatId, members, user }) => {
       if (data.chatId !== chatId) {
         return;
       }
-      console.log("start-typing");
+      // console.log("start-typing");
       // console.log(member);
 
       setUserTyping(true);
@@ -132,7 +132,7 @@ const Chat = ({ chatId, members, user }) => {
       if (data.chatId !== chatId) {
         return;
       }
-      console.log("stop-typing");
+      // console.log("stop-typing");
       // console.log(member);
 
       setUserTyping(false);

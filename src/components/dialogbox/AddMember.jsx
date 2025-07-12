@@ -46,7 +46,7 @@ const AddMember = ({ chatId }) => {
   //     setMembers(data.users);
   //   }
   // }, [data]);
-  console.log(data);
+  // console.log(data);
 
   useErrors([{ isError, error }]);
   return (
